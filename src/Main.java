@@ -219,7 +219,8 @@ public class Main {
         arrayQueue.addItemsToCircularQueue(mikeSmith);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();*/
-        arrayQueue.addItemsToCircularQueue(mariaWilson);
+      //  arrayQueue.addItemsToCircularQueue(mariaWilson);
+       /* arrayQueue.addItemsToCircularQueue(mariaWilson);
         arrayQueue.addItemsToCircularQueue(mikeSmith);
         arrayQueue.removeItemFromCircularQueue();
         arrayQueue.addItemsToCircularQueue(mariaWilson);
@@ -234,7 +235,6 @@ public class Main {
         arrayQueue.removeItemFromCircularQueue();
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();
-
         arrayQueue.addItemsToCircularQueue(mikeSmith);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();
@@ -247,7 +247,40 @@ public class Main {
 
         arrayQueue.addItemsToCircularQueue(mariaWilson);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();*/
+
+      /*  LinkedListStack stack = new LinkedListStack();
+        stack.push(johnDoe);
+        stack.push(jacobAbrahams);
+        stack.push(mariaWilson);
+        stack.push(mikeSmith);
+        stack.printQueue();
+        System.out.println("peek employee is " + stack.peek());
+        System.out.println("pop employee is " + stack.pop());
+        stack.printQueue();*/
+        LinkedListCharStack charStack = new LinkedListCharStack();
+        //System.out.println("is palindrome " + charStack.checkPalindrome("rac,ecari"));
+       // System.out.println("is the input a palindrome " + charStack.checkPalindromUsingStackandQueue("race,cari"));
+       /* arrayQueue.addItemsToCircularQueue(mikeSmith);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+
+        arrayQueue.addItemsToCircularQueue(mariaWilson);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();*/
+        hashtableArray hashtableArray = new hashtableArray();
+        hashtableArray.put("Smith", mikeSmith);
+        hashtableArray.put("Abrahams", jacobAbrahams);
+        hashtableArray.put("Doe" , johnDoe);
+      //  System.out.println("Employee value is " + hashtableArray.getValue("Abrahams"));
+        hashtableArray.printHashTable();
+
     }
 
     private static void bubbleSortArray(Integer[] bubbleSortArray) {
