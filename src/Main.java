@@ -1,3 +1,5 @@
+import java.util.*;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -219,7 +221,7 @@ public class Main {
         arrayQueue.addItemsToCircularQueue(mikeSmith);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();*/
-      //  arrayQueue.addItemsToCircularQueue(mariaWilson);
+        //  arrayQueue.addItemsToCircularQueue(mariaWilson);
        /* arrayQueue.addItemsToCircularQueue(mariaWilson);
         arrayQueue.addItemsToCircularQueue(mikeSmith);
         arrayQueue.removeItemFromCircularQueue();
@@ -260,7 +262,7 @@ public class Main {
         stack.printQueue();*/
         LinkedListCharStack charStack = new LinkedListCharStack();
         //System.out.println("is palindrome " + charStack.checkPalindrome("rac,ecari"));
-       // System.out.println("is the input a palindrome " + charStack.checkPalindromUsingStackandQueue("race,cari"));
+        // System.out.println("is the input a palindrome " + charStack.checkPalindromUsingStackandQueue("race,cari"));
        /* arrayQueue.addItemsToCircularQueue(mikeSmith);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();
@@ -274,13 +276,343 @@ public class Main {
         arrayQueue.addItemsToCircularQueue(mariaWilson);
         System.out.println("size of the circular queue " + arrayQueue.getSize());
         arrayQueue.printCircularQueue();*/
-        hashtableArray hashtableArray = new hashtableArray();
+      /*  hashtableArray hashtableArray = new hashtableArray();
         hashtableArray.put("Smith", mikeSmith);
         hashtableArray.put("Abrahams", jacobAbrahams);
         hashtableArray.put("Doe" , johnDoe);
-      //  System.out.println("Employee value is " + hashtableArray.getValue("Abrahams"));
+        System.out.println("Employee value is " + hashtableArray.getValue("Abrahams"));
         hashtableArray.printHashTable();
+        int[] bucketArray = {54, 46, 83, 66, 95, 92, 43};
+        bucketSort(bucketArray);
 
+        int[] searchArray = {20, 35, -15, 7, 55, 1, -22};
+        System.out.println("value searched " + linearSearch(36, searchArray));
+
+        int[] binarySearchArray = {-22, -15, 1, 7, 20, 35, 55};
+        System.out.println("value searched " + binarySearch(-15, binarySearchArray));
+
+        System.out.println("value searched " + binaryRecursiveSearch(0, binarySearchArray.length, 11, binarySearchArray));*/
+      /*  Tree binarySearchTree = new Tree();
+        binarySearchTree.insert(25);
+        binarySearchTree.insert(20);
+        binarySearchTree.insert(15);
+        binarySearchTree.insert(27);
+        binarySearchTree.insert(30);
+        binarySearchTree.insert(29);
+        binarySearchTree.insert(26);
+        binarySearchTree.insert(22);
+        binarySearchTree.insert(32);
+        binarySearchTree.insert(17);
+        binarySearchTree.inOrderTraversal();
+        binarySearchTree.delete(17);
+        System.out.println();
+        binarySearchTree.inOrderTraversal();
+        binarySearchTree.inOrderTraversal();
+        System.out.println("get a node value " + binarySearchTree.getNodeValue(33));
+        System.out.println("the min value node is " + binarySearchTree.getMin());
+        System.out.println("the max value node is " + binarySearchTree.getMax());
+*/
+        /*Heap heap = new Heap(10);
+        heap.insert(80);
+        heap.insert(75);
+        heap.insert(60);
+        heap.insert(68);
+        heap.insert(55);
+        heap.insert(40);
+        heap.insert(52);
+        heap.insert(67);
+        heap.printHeap();
+        System.out.println();
+        heap.insert(95);
+        heap.printHeap();
+        heap.delete(1);
+        heap.printHeap();
+        heap.heapSort();
+        heap.printHeap();*/
+
+        leetCodePractice practice = new leetCodePractice();
+        int[] exampleProductArray1 = {2, 3, -2, 4};
+        int[] exampleProductArray2 = {-2, 0, -1};
+        int[] exampleProductArray3 = {-2, 6, -3, -10, 0, 2};
+
+
+        System.out.println("max product of a subarray is " + practice.findMaxProduct(exampleProductArray3));
+       /* int[] exampleArray1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] exampleArray2 = {1};
+        int[] exampleArray3 = {5, 4 , -1, 7, 8};
+        System.out.println("largest sum of a sub array is " + leetCodePractice.findSubArrayMax2(exampleArray1));
+        System.out.println("largest sum of a sub array is " + leetCodePractice.findSubArrayMax(exampleArray2));*/
+
+      /*  int[] exampleArray1 = {7, 1, 5, 3, 6, 4};
+        int[] exampleArray2 = {7, 6, 4, 3, 1};
+        System.out.println("max profit is " + leetCodePractice.findMaxProfit1(exampleArray1));*/
+
+       /* int[] exampleArrayProduct1 = {2, 3, -2, 4};
+        int[] exampleArrayProduct2 = {-2, 0, -1};
+        int[] exampleArrayProduct3 = {-2, 6, -3, -10, 0, 2};
+        System.out.println("max product of the sub array is " + leetCodePractice.findMaxProduct(exampleArrayProduct3));*/
+
+       /* int[] exampleProductSelfArray = {5, 2, 3, 4};
+        leetCodePractice.findSubArrayProductExceptforSelf1(exampleProductSelfArray);*/
+
+      /*  int[] exampleProductRotateArray = {1, 2, 3, 4, 5, 6, 7};
+        leetCodePractice.rotateArray1(exampleProductRotateArray, 3);*/
+
+       /* int[] exampleReverseArray = {1, 2, 3, 4, 5, 6, 7};
+        int[] reversedArray = leetCodePractice.reverseArray(exampleReverseArray, 0, exampleReverseArray.length);
+        System.out.println("reversed array elements are ");
+        for(int i =0;i<reversedArray.length;i++){
+           System.out.print(reversedArray[i]+ " ");
+        }*/
+
+       /* int[] binaryArray = {1, 1, 0, 1,1, 1};
+        int[] binaryArray1 = {1, 0, 1, 1, 0, 1};
+        System.out.println("max consecutive ones are " + leetCodePractice.findMaxConsecutiveOnes(binaryArray1));*/
+
+        /*List<String> inputStringList1 = new ArrayList<>(5);
+        inputStringList1.add("Hello");
+        inputStringList1.add("World");
+
+        List<String> inputStringList2 = List.of("");
+        List<String> inputStringList3 = List.of("Hel/lo", "w;orld");
+        List<String> inputStringList4 = List.of("Hel/;lo", "w;orld");
+        System.out.println("encoded string is " + leetCodePractice.encodeString(inputStringList1));
+        List<String> decodedStringList = leetCodePractice.decodeStrings(leetCodePractice.encodeString(inputStringList4));
+
+        for (String decodedString : decodedStringList) {
+            System.out.println("strings in the list are " + decodedString);
+        }*/
+
+       /* int[] moveZeroesInputArray = {0, 11, 0, 3, 12};
+        leetCodePractice.moveZeroestoEnd2(moveZeroesInputArray);*/
+
+      /*  IntegerLinkedList linkedList2 = new IntegerLinkedList();
+        IntegerLinkedList linkedList1 = new IntegerLinkedList();
+        IntegerLinkedList linkedlist = new IntegerLinkedList();
+        linkedlist.addNodeToFront(1);
+        linkedlist.addNodeToFront(2);
+        linkedlist.addNodeToFront(3);
+        linkedlist.addNodeToFront(4);
+        linkedlist.addNodeToFront(5);
+        linkedlist.addNodeToFront(6);
+
+        linkedlist.printLinkedList(linkedlist.getHead());
+        IntegerNode reverseHead = linkedlist.reverseListRecursive(linkedlist.getHead());
+        linkedlist.printLinkedList(reverseHead);*/
+      /*  IntegerNode headReverse = linkedlist.reverseListIterative(head1);
+        linkedlist.printLinkedList(headReverse);*/
+     /*   linkedList1.addNodeToFront(4);
+        linkedList1.addNodeToFront(2);
+        linkedList1.addNodeToFront(1);
+
+        linkedList2.addNodeToFront(4);
+        linkedList2.addNodeToFront(3);
+        linkedList2.addNodeToFront(1);
+
+        IntegerNode mergedListHead = linkedlist.mergeTwoSortedLists(linkedList1.getHead(), linkedList2.getHead());
+        linkedlist.printLinkedList(mergedListHead);*/
+       /* IntegerLinkedList integerLinkedList1 = new IntegerLinkedList();
+        integerLinkedList1.addNodeToFront(1);
+        integerLinkedList1.addNodeToFront(2);
+        integerLinkedList1.addNodeToFront(3);
+        integerLinkedList1.addNodeToFront(4);
+        integerLinkedList1.addNodeToFront(5);
+        integerLinkedList1.printLinkedList(integerLinkedList1.getHead());
+        IntegerNode head1 = integerLinkedList1.getHead();
+
+        IntegerLinkedList integerLinkedList2 = new IntegerLinkedList();
+        integerLinkedList2.addNodeToFront(1);
+        integerLinkedList2.addNodeToFront(2);
+        integerLinkedList2.addNodeToFront(3);
+        integerLinkedList2.addNodeToFront(14);
+        integerLinkedList2.addNodeToFront(15);
+        integerLinkedList2.addNodeToFront(16);
+        integerLinkedList2.printLinkedList(integerLinkedList2.getHead());
+        IntegerNode head2 = integerLinkedList2.getHead();*/
+
+      //  integerLinkedList1.findIntersectionNode1(head1, head2);
+      /* IntegerLinkedList list1 = new IntegerLinkedList();
+        list1.addNodeToFront(3);
+        list1.addNodeToFront(4);
+        list1.addNodeToFront(2);
+        list1.printLinkedList(list1.getHead());
+
+        IntegerLinkedList list2 = new IntegerLinkedList();
+        list2.addNodeToFront(9);
+        list2.addNodeToFront(6);
+        list2.addNodeToFront(5);
+        list2.printLinkedList(list2.getHead());
+
+        IntegerLinkedList listSum = new IntegerLinkedList();
+        listSum.addTwoLists(list1.getHead(), list2.getHead());*/
+
+       /*  IntegerLinkedList list1 = new IntegerLinkedList();
+        list1.addNodeToFront(9);
+        list1.addNodeToFront(5);
+        list1.addNodeToFront(8);
+        list1.printLinkedList(list1.getHead());
+
+        IntegerLinkedList list2 = new IntegerLinkedList();
+        list2.addNodeToFront(6);
+        list2.addNodeToFront(2);
+        list2.printLinkedList(list2.getHead());
+
+        IntegerLinkedList listSum = new IntegerLinkedList();
+        listSum.addTwoLists(list1.getHead(), list2.getHead());*/
+
+        LeetCodePracticeHashTable leetCodePracticeHashTable = new LeetCodePracticeHashTable();
+       /* int numsArray[] = {2, 7, 1, 5};
+        int[] indicesArray = leetCodePracticeHashTable.twoSumUsingHashTable(numsArray, 6);
+        for(int i = 0;i<indicesArray.length;i++){
+            System.out.println("indices "+ indicesArray[i]);
+        }*/
+
+       /* Integer[] array = {1,2,3,4, 6, 7, 8};
+        System.out.println("contains duplicates " +leetCodePracticeHashTable.containsDuplicates(array));*/
+
+       /* String s1 = "act";
+        String s2 = "cat";
+        System.out.println("is anagram "+ leetCodePracticeHashTable.isAnagram1(s1, s2));
+
+        String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
+       //leetCodePracticeHashTable.groupAnagrams(input);
+
+        Integer[] inputThreesum = {-1,0,1,2,-1,-4,3};
+        leetCodePracticeHashTable.threeSum(inputThreesum, 0);
+
+        int[] longestSequenceInput = {100, 4, 200, 1, 3, 2};
+        int[] longestSequenceInput1 = {0,3,7,2,5,8,4,6,0,1};
+        int[] longestSequenceInput2 = {2,3,4,6,9,10,11,12,13,14,17};
+        // hastableLeetcode.findLongestConsecutiveSeq(longestSequenceInput);
+        System.out.println("count of longest sequence " +  leetCodePracticeHashTable.findLongestConsecutiveSeq1(longestSequenceInput2));*/
+
+        int[] inputArray = {1, 2, 0};
+        int[] inputArray1 = {3, 4, -1, 1};
+        int[] inputArray2 = {7,8,9,11,12};
+        int[] inputArray3 = {2,1,4,8,5};
+      //  leetCodePracticeHashTable.firstMissingPositive(inputArray1);
+
+        MinStack minStack = new MinStack();
+      /*  minStack.push(1);
+        minStack.push(5);
+        minStack.push(7);
+        minStack.push(3);
+        minStack.getSize();
+        minStack.printStack();
+        minStack.pop();
+        minStack.getSize();
+        minStack.printStack();*/
+       /* minStack.push(5);
+        minStack.push(7);
+        minStack.push(2);
+        minStack.push(10);
+        minStack.push(1);
+        minStack.push(9);
+        minStack.printStack();
+        minStack.getMinStackSize();
+        minStack.printMinValStack();
+        minStack.getMin();
+        minStack.pop();
+        minStack.getMin();
+        minStack.pop();
+        minStack.getMin();
+        minStack.pop();
+        minStack.getMin();
+        minStack.pop();
+        minStack.getMin();
+        minStack.pop();
+        minStack.getMin();*/
+        int[] input1 = {1,3,2,4};
+        int[] input2 ={6,8,0,1,3};
+        int[] input3 = {50,40,30,10};
+        int[] input4 = {5,4,7,6,1,3};
+        leetCodePractice leetCodePractice = new leetCodePractice();
+        leetCodePractice.findNextGreaterElement2(input4);
+        String[] input = {"2", "1", "+", "3", "*"};
+        String[] inputReversePolish = {"4", "13", "5", "/", "+"};
+        //leetCodePractice.reversePolishNotation(input);int[] array = {2,1,5,8,9,4,6};
+        int[] array = {2,1,5,8,9,4,6};
+        // leetCodePractice.sumOfSubArray1(array, 3);
+         /*   int[] array = {2,1,5,8,9,4,6};
+        leetCodePractice.sumOfSubArray1(array, 3);
+        String input1 = "abcabcbb";
+        String input2 = "bbbb";
+        String input3 = "pwwkew";
+        leetCodePractice.longestSubstringWithoutRepetition(input3);*/
+      /*  int[] inputHeight1 = {2,3,5,1};
+        int[] inputHeight2 = {1,8,6,2,5,4,8,3,7};
+        leetCodePractice.findLargestArea(inputHeight2);*/
+       /* String input1 = "noon";
+        String input2 = "A man, a plan,  canal: Panama";
+        String input3 = "race a car";
+        System.out.println(leetCodePractice.isPalindrome(input2));*/
+
+       /* int[] input1 = {2,7,11,15};
+        int[] input2 ={2,3,4};
+        leetCodePractice.twoSumTwo(input1, 18);*/
+       /* int[][] matrix2 = {{2,3,1,5}, {4,0,3,2},{8,9,0,9},{6,4,1,8}};
+
+        leetCodePractice.setZeroes2(matrix2,4, 4);*/
+       /* int[][] rotateMatrix1 = {{1,2,3}, {4,5,6}, {7,8,9}};
+        leetCodePractice.transposeMatrix(rotateMatrix1);*/
+       /* String input1 = "ABAB";
+        String input2 = "AABABBA";
+        String input3 = "ABBCCBB";
+        leetCodePractice.longestRepeatCharReplacement(input3, 2);*/
+        double x1 = 2.00000;
+        int n1 = 5;
+        double x2 = 2.10000;
+        int n2 = 3;
+        double x3 = 2.00000;
+        int n3 = -2;
+        //  leetCodePractice.calculatePow(x3, n3);
+        System.out.println("power " + leetCodePractice.calculatePow1(x3, n3));
+        int[][] matrix3 = {{1,2,3}, {4,5,6}, {7,8,9}};
+        int[][] matrix4 = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};
+        //  leetCodePractice.transposeMatrix(matrix4);
+        // leetCodePractice.rotateByColumns(matrix4, 4, 4);
+        leetCodePractice.rotateMatrixBy90(matrix4,4,4);
+
+    }
+
+    public static int binaryRecursiveSearch(int start, int end , int value, int[] searchArray) {
+        if(end<=start){
+            return -1;
+        }
+        int mid = (start+end)/2;
+        if(searchArray[mid] == value) {
+            return value;
+        } else if(value > searchArray[mid]) {
+            return binaryRecursiveSearch(mid+1, end, value, searchArray);
+        } else {
+            return binaryRecursiveSearch(start, mid, value, searchArray);
+        }
+    }
+
+    public static int binarySearch(int value, int[] searchArray) {
+        int start = 0;
+        int end = searchArray.length;
+        int mid;
+        while(start < end) {
+            mid = (start + end )/2;
+            System.out.println("mid " + mid);
+            if(value == searchArray[mid]){
+                return value;
+            } else if(value > searchArray[mid]) {
+                start = mid+1;
+            } else {
+                end = mid;
+            }
+        }
+        return -1;
+    }
+
+    public static int linearSearch(int value, int[] searchArray) {
+        for (int i = 0; i < searchArray.length; i++) {
+            if (searchArray[i] == value)
+                return value;
+        }
+        return -1;
     }
 
     private static void bubbleSortArray(Integer[] bubbleSortArray) {
@@ -602,4 +934,260 @@ public class Main {
     }
 
 
+    public static void bucketSort(int[] inputArray) {
+        // we are creating 10 buckets for integer (0-9)
+        List<Integer>[] bucketlist  = new List[10];
+        for(int i = 0;i<bucketlist.length;i++){
+            bucketlist[i] = new ArrayList<>();
+        }
+        // add the input values to right bucket
+        for(int i = 0;i<inputArray.length;i++) {
+            bucketlist[findHashValue(inputArray[i])].add(inputArray[i]);
+        }
+        //sort each bucket
+        for(int i = 0;i<bucketlist.length;i++){
+            Collections.sort(bucketlist[i]);
+        }
+        //copy elements in ascending order
+        for(int i = 0, j= 0;i<bucketlist.length;i++){
+            for(int value:bucketlist[i]){
+                inputArray[j++] = value;
+            }
+        }
+        //finally the sorted array
+        for(int i = 0;i<inputArray.length;i++){
+            System.out.println("array element is " + inputArray[i]);
+        }
+    }
+
+    public static int findHashValue(int value) {
+        return value/10;
+    }
+
+    private void sortArray() {
+        // sort 2D array in ascending order based on the first element of each row. If the first elements are the same, sort it in descending order by the second element of those two rows that are compared.
+        int[][] input = {{1, 2},
+                {10, 9},
+                {11, 5},
+                {1, 7}
+        };
+
+        for (int i = 0; i < input.length; i++) {
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+        Arrays.sort(input, (a, b) -> {
+            if (a[0] == b[0]) {
+                return b[1] - a[1];
+            } else {
+
+                return a[0] - b[0];
+            }
+        });
+        for (int i = 0; i < input.length; i++) {
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+    }
+
+    private void  sort2dArray() {
+        // sort 2D array in descending order based on the second element of each row.
+
+        int[][] input = {{1,2},
+                {10,9},
+                {11,5}
+        };
+
+        for(int i = 0;i<input.length;i++){
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+        Arrays.sort(input, (a,b) -> {
+            System.out.println("a[0]" + a[0]);
+            System.out.println("a[1]" + a[1]);
+            System.out.println("b[0]" + b[0]);
+            System.out.println("b[1]" + b[1]);
+            return b[1]-a[1];
+        });
+        for(int i = 0;i<input.length;i++){
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+    }
+
+    private void sort2darray1(){
+        // sort 2D array in descending order based on the first element of each row.
+        int[][] input = {{1,2},
+                {10,9},
+                {11,5}
+        };
+
+        for(int i = 0;i<input.length;i++){
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+        Arrays.sort(input, (a,b) -> {
+            System.out.println("a[0]" + a[0]);
+            System.out.println("a[1]" + a[1]);
+            System.out.println("b[0]" + b[0]);
+            System.out.println("b[1]" + b[1]);
+            return b[0]-a[0];
+        });
+    }
+
+    private void sort2darray2() {
+        // sort 2D array in ascending order based on the second element of each row.
+        int[][] input = {{1,2},
+                {10,9},
+                {11,5}
+        };
+
+        for(int i = 0;i<input.length;i++){
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+        Arrays.sort(input, (a,b) -> {
+            System.out.println("a[0]" + a[0]);
+            System.out.println("a[1]" + a[1]);
+            System.out.println("b[0]" + b[0]);
+            System.out.println("b[1]" + b[1]);
+            return a[1]-b[1];
+        });
+        for(int i = 0;i<input.length;i++){
+            int[] interval = input[i];
+            System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+        }
+    }
+
+    private void sort2darray3() {
+// sort 2D array in ascending order based on the first element of each row.
+int[][] input = {{1,2},
+        {10,9},
+        {4,5}
+    };
+
+        for(int i = 0;i<input.length;i++){
+        int[] interval = input[i];
+        System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+    }
+        Arrays.sort(input, (a,b) -> {
+        System.out.println("a[0]" + a[0]);
+        System.out.println("a[1]" + a[1]);
+        System.out.println("b[0]" + b[0]);
+        System.out.println("b[1]" + b[1]);
+        return a[0]-b[0];
+    });
+         for(int i = 0;i<input.length;i++){
+        int[] interval = input[i];
+        System.out.println("interval " + interval[0] + " " + interval[1] + " ");
+    }
+    }
+
+   // Try to solve the Logger Rate Limiter problem.
+
+    class RequestLogger {
+        private int time;
+        private HashMap<String, Integer> requestMap;
+
+        public RequestLogger(int timeLimit) {
+            requestMap = new HashMap<>();
+            time = timeLimit;
+        }
+
+        public boolean messageRequestDecision(int timestamp, String request) {
+            if(!requestMap.containsKey(request)){
+                requestMap.put(request, timestamp);
+                return true;
+            } else {
+                System.out.println("time " + requestMap.get(request) + "new time " + timestamp);
+                if((timestamp-requestMap.get(request)) >= time) {
+                    requestMap.put(request, timestamp);
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+    }
+
+    public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
+
+        HashMap<Integer, Integer> greaterElement = new HashMap<>();
+        Stack<Integer> minstack = new Stack<>();
+        int[] ans = new int[nums1.length];
+
+        for(int current : nums2){
+            while(!minstack.isEmpty() && current > minstack.peek()){
+                greaterElement.put(minstack.pop(), current);
+            }
+
+            minstack.push(current);
+        }
+        if(!minstack.isEmpty()){
+            while(!minstack.isEmpty()){
+                greaterElement.put(minstack.pop(), -1);
+            }
+        }
+
+        for(int i = 0;i<nums1.length;i++){
+            ans[i] = greaterElement.get(nums1[i]);
+        }
+
+        return ans;
+    }
+
+    public static int[] findMaxSlidingWindow(int[] nums, int w) {
+        List<Integer> output = new ArrayList<>();
+        int length = nums.length;
+        System.out.println("length " + length);
+        List<Integer> numslist = new ArrayList<>();
+        for(int j = 0;j<w;j++){
+            numslist.add(nums[j]);
+        }
+        int firstmax = Collections.max(numslist);
+        System.out.println("first max " + firstmax);
+        output.add(firstmax);
+        for(int i = 1;i<=length-w;i++){
+            numslist.remove(0);
+            numslist.add(nums[i+w-1]);
+            int max = Collections.max(numslist);
+            System.out.println(" max " + max);
+            output.add(max);
+        }
+        int[] outputarray = new int[output.size()];
+        for(int k = 0;k<outputarray.length;k++){
+            outputarray[k] = output.get(k);
+        }
+
+        return outputarray ;
+    }
+
+    public static List<String> findRepeatedDnaSequences(String s) {
+        List<String> output = new ArrayList<>();
+        HashMap<String, Integer> stringmap = new HashMap<>();
+        String initial = s.substring(0, 10);
+        System.out.println("initial " + initial);
+        stringmap.put(initial, 1);
+        int length = s.length();
+        for(int i = 1;i < length-10;i++){
+            String sub = s.substring(i, i+10);
+            if(stringmap.containsKey(sub)){
+                int count = stringmap.get(sub);
+                stringmap.put(sub, count+1);
+            } else {
+                stringmap.put(sub, 1);
+            }
+        }
+
+        for(String key : stringmap.keySet()){
+            System.out.println("key " + key + "value " + stringmap.get(key));
+        }
+        for(String key : stringmap.keySet()){
+            if(stringmap.get(key) > 1){
+                output.add(key);
+            }
+        }
+        return output;
+
+    }
 }
