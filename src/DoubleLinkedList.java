@@ -1,5 +1,6 @@
 public class DoubleLinkedList {
-    private DoubleLinkedListEmployeeNode head;
+  //  private DoubleLinkedListEmployeeNode head;
+   /* private DoubleLinkedListEmployeeNode head;
     private DoubleLinkedListEmployeeNode tail;
     int size;
 
@@ -96,7 +97,11 @@ public class DoubleLinkedList {
             }
         }
         size++;
+<<<<<<< HEAD
     }
+=======
+    }*/
+
 }
 
 

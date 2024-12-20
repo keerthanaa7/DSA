@@ -66,6 +66,7 @@ public class Main {
         linkedList.getSize();*/
 
         DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
+        //  DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
        /* doubleLinkedList.addNodeToFront(janeJones);
         doubleLinkedList.getsize();
         doubleLinkedList.addNodeToFront(janeJones);
@@ -175,15 +176,78 @@ public class Main {
         stack.push(johnDoe);
         stack.push(janeJones);
         stack.printStack();*/
+       /* ArrayQueue arrayqueue = new ArrayQueue(6);
+        arrayqueue.addItemToQueue(jacobAbrahams);
+        arrayqueue.addItemToQueue(johnDoe);
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();
+        System.out.println("peek employee is " + arrayqueue.peekEmployeeFromQueue());
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();
+        System.out.println("pop employee is " + arrayqueue.removeItemFromQueue());
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();
+        arrayqueue.addItemToQueue(mariaWilson);
+        arrayqueue.addItemToQueue(mikeSmith);
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();
+        System.out.println("peek employee is " + arrayqueue.peekEmployeeFromQueue());
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();
+        System.out.println("pop employee is " + arrayqueue.removeItemFromQueue());
+        arrayqueue.getQueueSize();
+        arrayqueue.printQueueItems();*/
 
-        Arrayqueue arrayqueue = new Arrayqueue(6);
-        arrayqueue.getSize();
-        arrayqueue.enqueue(jacobAbrahams);
-        arrayqueue.isEmpty();
-        arrayqueue.isFull();
-        arrayqueue.printQueue();
-        arrayqueue.getSize();
+        circularArrayQueue arrayQueue = new circularArrayQueue(5);
+       /* arrayQueue.addItemsToCircularQueue(mariaWilson);
+        arrayQueue.addItemsToCircularQueue(mikeSmith);
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        arrayQueue.addItemsToCircularQueue(johnDoe);
+        System.out.println("is circular queue empty " + arrayQueue.isCircularQueueEmpty());
+        System.out.println("is circular queue full " + arrayQueue.isCircularQueuefull());
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(mariaWilson);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.removeItemFromCircularQueue();
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.removeItemFromCircularQueue();
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(mikeSmith);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();*/
+        arrayQueue.addItemsToCircularQueue(mariaWilson);
+        arrayQueue.addItemsToCircularQueue(mikeSmith);
+        arrayQueue.removeItemFromCircularQueue();
+        arrayQueue.addItemsToCircularQueue(mariaWilson);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.removeItemFromCircularQueue();
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.removeItemFromCircularQueue();
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
 
+        arrayQueue.addItemsToCircularQueue(mikeSmith);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+        arrayQueue.addItemsToCircularQueue(jacobAbrahams);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
+
+        arrayQueue.addItemsToCircularQueue(mariaWilson);
+        System.out.println("size of the circular queue " + arrayQueue.getSize());
+        arrayQueue.printCircularQueue();
     }
 
     private static void bubbleSortArray(Integer[] bubbleSortArray) {
